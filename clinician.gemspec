@@ -6,11 +6,11 @@ require "clinician/version"
 Gem::Specification.new do |spec|
   spec.name          = "clinician"
   spec.version       = Clinician::VERSION
-  spec.authors       = ["'Rachel T'"]
-  spec.email         = ["'rachmaybe@gmail.com'"]
+  spec.authors       = ["'Rachel Taylor'"]
+  spec.email         = ["'taylor.d.rachel@gmail.com'"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
+  spec.summary       = %q{clinicians from fred hutch}
+  spec.description   = %q{this will pull clinicians based on their specialty from fred hutch cancer research center}
   spec.homepage      = "TODO: Put your gem's website or public repo URL here."
   spec.license       = "MIT"
 
@@ -38,4 +38,6 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 2.0"
   spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "nokogiri"
+  spec.add_development_dependency "pry"
 end
