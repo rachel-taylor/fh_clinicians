@@ -1,6 +1,2 @@
-require "clinician/version"
-
-module Clinician
-  class Error < StandardError; end
-  # Your code goes here...
-end
+require_relative "clinician/version"
+require_relative './clinician/cli'
