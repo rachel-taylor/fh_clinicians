@@ -10,8 +10,8 @@ class Clinician::CLI
   end 
   
   def specialty
-    # scraper = Clinician::SCRAPE.new()
-    # scraper.scrape  
+  #   # scraper = Clinician::SCRAPE.new()
+  #   # scraper.scrape  
     Clinician::SCRAPE.scrape 
   end 
   

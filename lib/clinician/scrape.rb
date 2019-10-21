@@ -12,11 +12,13 @@
      puts doc 
      specialty = doc.css(".faq-title").each do |anchor|
       name = anchor.css("h3").text
+        puts name 
       phone_number = anchor.css("contact-card--phone").text
+        puts phone_number
       email = anchor.css("contact-card--email").text
+        puts email 
        
-      Clinician::specialty.new(name, phone_number, email)
-   
-    end 
+      # Clinician::specialty.new(name, phone_number, email)
+      end 
   end 
 end 
