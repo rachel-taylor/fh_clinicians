@@ -1,4 +1,4 @@
-class fh_clinicians::clinician_list
+class Clinician::CLINICIAN_LIST
   attr_accessor :name, :phone, :email 
   
   @@all = []
@@ -7,7 +7,7 @@ class fh_clinicians::clinician_list
     @name = name
     @phone = phone
     @email = email 
-    @@ all << self 
+    # @@ all << self 
   end 
   
   def self.all
