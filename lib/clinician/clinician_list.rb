@@ -1,12 +1,13 @@
 class Clinician::CLINICIAN_LIST
-  attr_accessor :name, :phone, :email 
+  attr_accessor :name, :phone, :email, :specialty
   
   @@all = []
   
-  def initialize(name,phone,email)
+  def initialize(specialty,name,phone,email)
     @name = name
     @phone = phone
     @email = email 
+    @specialty = specialty
     # @@ all << self 
   end 
   
