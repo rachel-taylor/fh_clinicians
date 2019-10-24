@@ -14,13 +14,6 @@ class Clinician::SCRAPE
        specialty = anchor.text
     end 
   end 
-  
-def get_info 
-  info = Nokogiri::HTML(open("https://www.fredhutch.org/en/research/patient-treatment-support/meet-our-clinicians.html"))
-  @@name = info.css("h3").map do |anchor|
-    name = anchor.text
-  end 
-end 
 
 end 
 
