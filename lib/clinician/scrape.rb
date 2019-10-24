@@ -3,7 +3,6 @@ require 'pry'
 require 'nokogiri'
 require 'open-uri'
 require './lib/clinician/specialty'
-require './lib/clinician/clinician_list'
    
 class Clinician::SCRAPE
     
@@ -15,5 +14,13 @@ class Clinician::SCRAPE
        specialty = anchor.text
     end 
   end 
+  
+def get_info 
+  info = Nokogiri::HTML(open("https://www.fredhutch.org/en/research/patient-treatment-support/meet-our-clinicians.html"))
+  @@name = info.css("h3").map do |anchor|
+    name = anchor.text
+  end 
+end 
+
 end 
 

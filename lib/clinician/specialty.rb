@@ -1,4 +1,3 @@
-require './lib/clinician/clinician_list'
 require './lib/clinician/scrape'
 require './lib/clinician/version'
 

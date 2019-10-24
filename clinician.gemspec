@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["'taylor.d.rachel@gmail.com'"]
 
   spec.summary       = %q{clinicians from fred hutch}
-  spec.description   = %q{this will pull clinicians based on their specialty from fred hutch cancer research center}
+  spec.description   = %q{this will pull fred hutchinsons specialty list}
   spec.homepage      = "TODO: Put your gem's website or public repo URL here."
   spec.license       = "MIT"
 

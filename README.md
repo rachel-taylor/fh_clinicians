@@ -1,6 +1,6 @@
 # Clinician
 
-This is a simple gem that pulls Fred Hutchinson Clinicians with their specialty. 
+This is a simple gem that pulls Fred Hutchinson's Specialty List 
 
 ## Installation
 
