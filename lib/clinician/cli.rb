@@ -10,18 +10,12 @@ class Clinician::CLI
     specialty.each do |thething| 
       i += 1
       puts i.to_s + "-" + thething 
-      # puts i
     end 
   end 
   
   def specialty
-  #    scraper = Clinician::SCRAPE.new()
-    # scraper.scrape  
     Clinician::SCRAPE.scrape 
-    # Clinician::SCRAPE.specialty
   end 
-  
-  
-  
+
  end 
 

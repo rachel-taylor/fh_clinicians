@@ -8,7 +8,6 @@ class Clinician::CLINICIAN_LIST
     @phone = phone
     @email = email 
     @specialty = specialty
-    # @@ all << self 
   end 
   
   def self.all
