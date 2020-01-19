@@ -1,18 +1,14 @@
 class Cli  
   
   def welcome
-    puts "Welcome to Fred Hutchinson, here is a list of our specialties:"
-     Doctor::SCRAPE.scrape
-    # i=0 
-    # specialty.each do |thething| 
-    #   i += 1
-    #   puts i.to_s + "-" + thething 
-    end 
+    puts "Welcome To The Doctor Finder!"
+     get_doctor
+    end
+  
+  #Puts the name of the two 5 doctors, and their information
+  def get_doctor
+    puts "Which Doctor would you like more information about?"
+    Scrape.scrape_doctor
   end 
   
-  # def specialty
-  #   Clinician::SCRAPE.scrape 
-  # end
-
-# end 
-
+end 

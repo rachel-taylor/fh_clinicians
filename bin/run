@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby 
 
-require './lib/doctors'
+require './lib/doctor_required'
 
-doctors::CLI.new.welcome 
+CLI.new.call
